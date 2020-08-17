@@ -1,5 +1,4 @@
 .jumbotron{
-    height: 450px;
     background: #293f50;
     width: 100%;
     border-radius: 0%;
@@ -67,15 +66,13 @@ p{
 }
 .footer{
     margin-top: 30px;
-    height: 20px;
+    padding: 50px 0px;
 }
 h3{
     font-size: 48px;
     color: white;
     font-weight: 50;
     display: inline-flex;
-    align-items: center;
-    border-top: 3px Solid #648880 ;
 }
 .title{
     font-size: 20px;
@@ -109,6 +106,17 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.left{
+.left h3{
     display: flex;
+    align-items: center;
+    border-top: 3px Solid #648880 ;
+    max-width: 292px;
+    text-align: left;
+}
+header .right{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    padding: 50px 0px;
+    justify-content: center;
 }
